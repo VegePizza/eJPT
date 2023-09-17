@@ -1,7 +1,3 @@
----
-description: "eJPT study\_notes"
----
-
 # Passive Information Gathering
 
 ***
