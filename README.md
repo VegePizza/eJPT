@@ -1,6 +1,6 @@
-# All about eJPT
+# This Space is all about eJPT
 
-## This page is all for eJPT
+## Content
 
 [Passive Information Gathering](passive-information-gathering.md)
 
