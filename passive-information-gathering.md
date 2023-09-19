@@ -174,5 +174,54 @@ cache:ine.com
 
 <pre><code><strong>waybackmachine
 </strong><strong>
-</strong><strong>(search it in google, it has old version of websites)
+</strong><strong>(search in google for snapshot old version of websites)
 </strong></code></pre>
+
+```
+inurl:auth_user_file.txt
+```
+
+```
+inurl:passwd.txt
+
+(For user info and passwd)
+```
+
+## Google Hacking Database
+
+[https://www.exploit-db.com/google-hacking-database](https://www.exploit-db.com/google-hacking-database)
+
+![](<.gitbook/assets/image (5).png>)
+
+![](<.gitbook/assets/image (6).png>)
+
+![](<.gitbook/assets/image (7).png>)
+
+```
+inurl:wp-config.bak
+
+(wordpress sql database credentials)
+```
+
+## Email Harvesting With theHarvester
+
+The tool gathers names, emails, IPs, subdomains, and URLs.
+
+it can also be used to perform subdomain enumeration
+
+{% embed url="https://github.com/laramies/theHarvester" %}
+
+```bash
+theHarvester -d hackersploit.org -b google,linkedin,yahoo,dnsdumpster,duckduckgo
+```
+
+![](<.gitbook/assets/image (8).png>)
+
+## Leaked Password Databases
+
+when user reuse password and perform a password spray attack
+
+_HaveIBeenPwned website can check whether a data breach happened or not_
+
+{% embed url="https://haveibeenpwned.com/" %}
+
