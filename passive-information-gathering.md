@@ -10,17 +10,13 @@ description: eJPT lecture notes
 whatis host
 ```
 
-show the command do
-
-
+This command show the command function
 
 Host command is for DNS lookup — means resolve DNS to IP address
 
 ![](<.gitbook/assets/Pasted Graphic.png>)
 
-
-
-If you saw two IPv4, maybe is dealing with some kind of proxy.
+_If you saw two IPv4 in result, maybe is dealing with proxy._
 
 ```bash
 host hackerspolit.org
@@ -68,7 +64,7 @@ whatweb hackerspolit.org
 
 ## **Whois Enumeration**
 
-```
+```bash
 whois hackersploit.org
 ```
 
@@ -76,7 +72,7 @@ whois hackersploit.org
 
 ![](<.gitbook/assets/Pasted Graphic 13.png>)
 
-```
+```bash
 whois 108.162.192.93
 ```
 
@@ -92,6 +88,8 @@ dnsrecon -d hackersploit.org
 
 ![](<.gitbook/assets/Pasted Graphic 19.png>)
 
+## DNSDumpster
+
 [https://dnsdumpster.com/](https://dnsdumpster.com/)
 
 ![](<.gitbook/assets/Pasted Graphic 20.png>)
@@ -99,6 +97,8 @@ dnsrecon -d hackersploit.org
 
 
 ## **Netcraft website footprinting**
+
+[https://www.netcraft.com/](https://www.netcraft.com/)
 
 ![](<.gitbook/assets/Pasted Graphic 15 (1).png>)
 
@@ -116,4 +116,63 @@ wafw00f -l
 wafw00f hackersploit.org
 ```
 
+![](<.gitbook/assets/image (4).png>)
+
+## Subdomain Enumeration With Sublist3r
+
+{% embed url="https://github.com/aboul3la/Sublist3r" %}
+
+Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT.
+
+```bash
+sudo apt-get install sublist3r
+```
+
+```bash
+sublist3r -d ine.com
+```
+
+## Google Dorks
+
 ![](.gitbook/assets/image.png)
+
+```
+site:ine.com inurl:admin
+```
+
+![](<.gitbook/assets/image (3).png>)
+
+```
+site:ine.com inurl:forum
+```
+
+```
+site:*.ine.com
+```
+
+```
+site:*.ine.com intitle:admin
+```
+
+```
+site:*.ine.com filetype:pdf
+```
+
+```
+intitle:index of
+
+(This is for common command for directory listing)
+```
+
+![](<.gitbook/assets/image (2).png>)
+
+```
+cache:ine.com
+
+(To check the old website before updates)
+```
+
+<pre><code><strong>waybackmachine
+</strong><strong>
+</strong><strong>(search it in google, it has old version of websites)
+</strong></code></pre>
