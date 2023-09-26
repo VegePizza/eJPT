@@ -94,3 +94,9 @@ We can also perform this host discovery using **NetDiscover** which send ARP req
 ## Port Scanning With Nmap
 
 Perform TCP port and UDP port scanning
+
+A default NMap scan like below, basically a SIN scan&#x20;
+
+```bash
+nmap 10.4.19.218
+```
