@@ -112,3 +112,28 @@ nmap 10.4.19.218 -oN test.txt  / -oX test.xml
 (export scan to file -oN to normal format -oX to xml for Metasploit)
 ```
 
+### Lab walkthrough
+
+Ping the target machine to see if it’s alive or not.
+
+```bash
+ ping -c 5 10.0.30.43
+```
+
+We can observe that the target is not responding to the ping requests, so this does not confirm if it’s alive or down.
+
+![](<.gitbook/assets/image (1).png>)
+
+In the nmap there is one option **-Pn** (Treat all hosts as online -- skip host discovery) this option will force the scanning even if it has detected the target as down in host discovery.
+
+**About Filtered port**:&#x20;
+
+“Nmap cannot determine whether the port is open because packet filtering prevents its probes from reaching the port. The filtering could be from a dedicated firewall device, router rules, or host-based firewall software. These ports frustrate attackers because they provide so little information. Sometimes they respond with ICMP error messages such as type 3 code 13 (destination unreachable: communication administratively prohibited), but filters that simply drop probes without responding are far more common. This forces Nmap to retry several times just in case the probe was dropped due to network congestion rather than filtering. This slows down the scan dramatically.”
+
+This command skipped the host discovery and forced version information discovery to port 80 only. This is **a standard method to discover hosts using Nmap which is behind a firewall**.
+
+```bash
+nmap -Pn -sV -p 80 10.0.30.43
+```
+
+![](<.gitbook/assets/image (2).png>)

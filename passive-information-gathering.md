@@ -134,13 +134,13 @@ sublist3r -d ine.com
 
 ## Google Dorks
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (3).png>)
 
 ```
 site:ine.com inurl:admin
 ```
 
-![](<.gitbook/assets/image (3).png>)
+![](<.gitbook/assets/image (3) (1).png>)
 
 ```
 site:ine.com inurl:forum
@@ -164,7 +164,7 @@ intitle:index of
 (This is for common command for directory listing)
 ```
 
-![](<.gitbook/assets/image (2).png>)
+![](<.gitbook/assets/image (2) (1).png>)
 
 ```
 cache:ine.com
