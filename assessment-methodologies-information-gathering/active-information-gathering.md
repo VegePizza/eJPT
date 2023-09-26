@@ -6,7 +6,7 @@ description: eJPT lecture notes
 
 ## DNS Zone Transfers
 
-![](<.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17).png>)
 
 **DNS interrogation** is the process of enumerating DNS records for a specific domain.
 
@@ -22,18 +22,18 @@ Gain more information about the subdomains which know about internal ip addresse
 
 Which we can use after gained access to the target network.&#x20;
 
-![](<.gitbook/assets/image (9).png>)![](<.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (9).png>)![](<../.gitbook/assets/image (10).png>)
 
 ```bash
 dig axfr @nsztm1.digi.ninja zonetransfer.me
 ```
 
-![](<.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11).png>)
 
 <pre class="language-bash"><code class="lang-bash"><strong>fierce --domain  zonetransfer.me
 </strong></code></pre>
 
-![](<.gitbook/assets/image (12).png>)![](<.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (12).png>)![](<../.gitbook/assets/image (13).png>)
 
 ## Host Discovery With Nmap
 
@@ -89,7 +89,7 @@ Nmap done: 256 IP addresses (2 hosts up) scanned in 2.00 seconds
 
 We can also perform this host discovery using **NetDiscover** which send ARP requests to resolve MAC to ip addresses or vice versa.
 
-![](<.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16).png>)
 
 ## Port Scanning With Nmap
 
@@ -122,7 +122,7 @@ Ping the target machine to see if it’s alive or not.
 
 We can observe that the target is not responding to the ping requests, so this does not confirm if it’s alive or down.
 
-![](<.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 In the nmap there is one option **-Pn** (Treat all hosts as online -- skip host discovery) this option will force the scanning even if it has detected the target as down in host discovery.
 
@@ -136,4 +136,4 @@ This command skipped the host discovery and forced version information discovery
 nmap -Pn -sV -p 80 10.0.30.43
 ```
 
-![](<.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2).png>)

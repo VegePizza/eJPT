@@ -14,7 +14,7 @@ This command show the command function
 
 Host command is for DNS lookup — means resolve DNS to IP address
 
-![](<.gitbook/assets/Pasted Graphic.png>)
+![](<../.gitbook/assets/Pasted Graphic.png>)
 
 _If you saw two IPv4 in result, maybe is dealing with proxy._
 
@@ -24,34 +24,34 @@ host hackerspolit.org
 
 this command will show IPv4, IPv6 and the mail server.
 
-![](<.gitbook/assets/Pasted Graphic 1.png>)\
+![](<../.gitbook/assets/Pasted Graphic 1.png>)\
 
 
 When you looking for information on a website, the best way to start is /robots.txt file. Almost every website has it.
 
-![](<.gitbook/assets/Pasted Graphic 2.png>)\
+![](<../.gitbook/assets/Pasted Graphic 2.png>)\
 
 
 Disallow — means the website tells google/bing search engine to disregard which file when curl the website
 
 Wp-content — shows this website running wordpress
 
-![](<.gitbook/assets/Pasted Graphic 3.png>)\
+![](<../.gitbook/assets/Pasted Graphic 3.png>)\
 
 
 sitemap.xml / sitemaps.xml file —&#x20;
 
-![](<.gitbook/assets/Pasted Graphic 4.png>)\
+![](<../.gitbook/assets/Pasted Graphic 4.png>)\
 
 
 Try Mozilla add-ons and install buildwith / wappalyzer / whatweb (kali building) / httrack
 
-&#x20;![](<.gitbook/assets/Pasted Graphic 5.png>)
+&#x20;![](<../.gitbook/assets/Pasted Graphic 5.png>)
 
-![](<.gitbook/assets/Pasted Graphic 6.png>)\
-![](<.gitbook/assets/Pasted Graphic 7.png>)
+![](<../.gitbook/assets/Pasted Graphic 6.png>)\
+![](<../.gitbook/assets/Pasted Graphic 7.png>)
 
-![](<.gitbook/assets/Pasted Graphic 8.png>)
+![](<../.gitbook/assets/Pasted Graphic 8.png>)
 
 
 
@@ -59,7 +59,7 @@ Try Mozilla add-ons and install buildwith / wappalyzer / whatweb (kali building)
 whatweb hackerspolit.org
 ```
 
-![](<.gitbook/assets/Pasted Graphic 11.png>)\
+![](<../.gitbook/assets/Pasted Graphic 11.png>)\
 
 
 ## **Whois Enumeration**
@@ -68,15 +68,15 @@ whatweb hackerspolit.org
 whois hackersploit.org
 ```
 
-![](<.gitbook/assets/Pasted Graphic 12.png>)
+![](<../.gitbook/assets/Pasted Graphic 12.png>)
 
-![](<.gitbook/assets/Pasted Graphic 13.png>)
+![](<../.gitbook/assets/Pasted Graphic 13.png>)
 
 ```bash
 whois 108.162.192.93
 ```
 
-![](<.gitbook/assets/Pasted Graphic 14.png>)
+![](<../.gitbook/assets/Pasted Graphic 14.png>)
 
 ## **DNS Recon**
 
@@ -84,15 +84,15 @@ whois 108.162.192.93
 dnsrecon -d hackersploit.org
 ```
 
-![](<.gitbook/assets/Pasted Graphic 17.png>)
+![](<../.gitbook/assets/Pasted Graphic 17.png>)
 
-![](<.gitbook/assets/Pasted Graphic 19.png>)
+![](<../.gitbook/assets/Pasted Graphic 19.png>)
 
 ## DNSDumpster
 
 [https://dnsdumpster.com/](https://dnsdumpster.com/)
 
-![](<.gitbook/assets/Pasted Graphic 20.png>)
+![](<../.gitbook/assets/Pasted Graphic 20.png>)
 
 
 
@@ -100,7 +100,7 @@ dnsrecon -d hackersploit.org
 
 [https://www.netcraft.com/](https://www.netcraft.com/)
 
-![](<.gitbook/assets/Pasted Graphic 15 (1).png>)
+![](<../.gitbook/assets/Pasted Graphic 15 (1).png>)
 
 
 
@@ -116,7 +116,7 @@ wafw00f -l
 wafw00f hackersploit.org
 ```
 
-![](<.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4).png>)
 
 ## Subdomain Enumeration With Sublist3r
 
@@ -134,13 +134,13 @@ sublist3r -d ine.com
 
 ## Google Dorks
 
-![](<.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 ```
 site:ine.com inurl:admin
 ```
 
-![](<.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 ```
 site:ine.com inurl:forum
@@ -164,7 +164,7 @@ intitle:index of
 (This is for common command for directory listing)
 ```
 
-![](<.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 ```
 cache:ine.com
@@ -191,11 +191,11 @@ inurl:passwd.txt
 
 [https://www.exploit-db.com/google-hacking-database](https://www.exploit-db.com/google-hacking-database)
 
-![](<.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5).png>)
 
-![](<.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6).png>)
 
-![](<.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7).png>)
 
 ```
 inurl:wp-config.bak
@@ -215,7 +215,7 @@ it can also be used to perform subdomain enumeration
 theHarvester -d hackersploit.org -b google,linkedin,yahoo,dnsdumpster,duckduckgo
 ```
 
-![](<.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8).png>)
 
 ## Leaked Password Databases
 
