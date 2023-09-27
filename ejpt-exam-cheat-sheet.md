@@ -1,8 +1,4 @@
----
-description: older version
----
-
-# eJPT Notes
+# eJPT exam cheat sheet
 
 **Exam setup**
 

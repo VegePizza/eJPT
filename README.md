@@ -8,4 +8,4 @@ description: summary page
 
 [Passive Information Gathering](assessment-methodologies-information-gathering/passive-information-gathering.md)
 
-[eJPT Notes old version](ejpt-notes.md)
+[eJPT Notes old version](ejpt-exam-cheat-sheet.md)

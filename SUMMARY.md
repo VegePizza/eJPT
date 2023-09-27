@@ -1,7 +1,7 @@
 # Table of contents
 
 * [This Space is all about eJPT](README.md)
-* [eJPT Notes](ejpt-notes.md)
+* [eJPT exam cheat sheet](ejpt-exam-cheat-sheet.md)
 
 ## Assessment Methodologies: Information Gathering
 
