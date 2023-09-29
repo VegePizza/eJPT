@@ -96,20 +96,20 @@ We can also perform this host discovery using **NetDiscover** which send ARP req
 Perform TCP port (by default) and UDP port scanning
 
 ```bash
-nmap 10.4.19.218 (default scan 1000 most frequent ports)
-nmap -p- 10.4.19.218 (entire range)
-nmap -p 80,445,3389 10.4.19.218 (specific ports)
-nmap -p1-10000 10.4.19.218 (custom port range)
-nmap -F 10.4.19.218 (fastscan 100 ports)
-nmap -sU 10.4.19.218 (UDP ports because certain service running on UDP like DNS) 
-nmap 10.4.19.218 -v (show details during scan)
-nmap -F -sV 10.4.19.218 (fast and service version scan)
-nmap -F -sV -O 10.4.19.218 (operation system scan)
-nmap -F -sV -O -sC 10.4.19.218 (script scan)
-nmap -F -A 10.4.19.218 (aggressive scan which combine -sV-O-sC in one)
-nmap -T5 10.4.19.218 (scan speed 0-5 paranoid/sneaky/polite/normal/aggressive/insane)
+nmap 10.4.19.218 #(default scan 1000 most frequent ports)
+nmap -p- 10.4.19.218 #(entire range)
+nmap -p 80,445,3389 10.4.19.218 #(specific ports)
+nmap -p1-10000 10.4.19.218 #(custom port range)
+nmap -F 10.4.19.218 #(fastscan 100 ports)
+nmap -sU 10.4.19.218 #(UDP ports because certain service running on UDP like DNS) 
+nmap 10.4.19.218 -v #(show details during scan)
+nmap -F -sV 10.4.19.218 #(fast and service version scan)
+nmap -F -sV -O 10.4.19.218 #(operation system scan)
+nmap -F -sV -O -sC 10.4.19.218 #(script scan)
+nmap -F -A 10.4.19.218 #(aggressive scan which combine -sV-O-sC in one)
+nmap -T5 10.4.19.218 #(scan speed 0-5 paranoid/sneaky/polite/normal/aggressive/insane)
 nmap 10.4.19.218 -oN test.txt  / -oX test.xml
-(export scan to file -oN to normal format -oX to xml for Metasploit)
+#(export scan to file -oN to normal format -oX to xml for Metasploit)
 ```
 
 ### Lab walkthrough
