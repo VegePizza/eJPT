@@ -12,3 +12,4 @@
 
 * [Mapping a Network](assessment-methodologies-footprinting-and-scanning/mapping-a-network.md)
 * [Port Scanning](assessment-methodologies-footprinting-and-scanning/port-scanning.md)
+* [Exercises and Challenges](assessment-methodologies-footprinting-and-scanning/exercises-and-challenges.md)
