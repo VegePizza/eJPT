@@ -151,3 +151,6 @@ smbmap -u guest -p "" -d . -H 10.0.28.123
 
 ## SMB: Samba 2
 
+### Lab: Samba Recon: Basics II
+
+<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
