@@ -113,6 +113,8 @@ smbmap -u guest -p "" -d . -H 10.0.28.123
 
 \-H means host
 
+### Lab: Windows Recon: SMBMap
+
 <figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
