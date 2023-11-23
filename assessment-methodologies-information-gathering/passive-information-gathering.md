@@ -116,7 +116,7 @@ wafw00f -l
 wafw00f hackersploit.org
 ```
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 ## Subdomain Enumeration With Sublist3r
 
@@ -134,13 +134,13 @@ sublist3r -d ine.com
 
 ## Google Dorks
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 ```
 site:ine.com inurl:admin
 ```
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 ```
 site:ine.com inurl:forum
@@ -164,7 +164,7 @@ intitle:index of
 (This is for common command for directory listing)
 ```
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1).png>)
 
 ```
 cache:ine.com
@@ -191,11 +191,11 @@ inurl:passwd.txt
 
 [https://www.exploit-db.com/google-hacking-database](https://www.exploit-db.com/google-hacking-database)
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (1).png>)
 
 ```
 inurl:wp-config.bak
@@ -215,7 +215,7 @@ it can also be used to perform subdomain enumeration
 theHarvester -d hackersploit.org -b google,linkedin,yahoo,dnsdumpster,duckduckgo
 ```
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 ## Leaked Password Databases
 
