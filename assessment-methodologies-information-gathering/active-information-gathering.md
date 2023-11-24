@@ -122,7 +122,7 @@ Ping the target machine to see if it’s alive or not.
 
 We can observe that the target is not responding to the ping requests, so this does not confirm if it’s alive or down.
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 
 In the nmap there is one option **-Pn** (Treat all hosts as online -- skip host discovery) this option will force the scanning even if it has detected the target as down in host discovery.
 
@@ -136,4 +136,4 @@ This command skipped the host discovery and forced version information discovery
 nmap -Pn -sV -p 80 10.0.30.43
 ```
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1).png>)
