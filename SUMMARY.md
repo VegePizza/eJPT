@@ -17,3 +17,4 @@
 ## Assessment Methodologies: Enumeration&#x20;
 
 * [SMB Lesson](assessment-methodologies-enumeration/smb-lesson.md)
+* [FTP Lesson](assessment-methodologies-enumeration/ftp-lesson.md)

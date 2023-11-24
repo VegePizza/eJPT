@@ -8,7 +8,7 @@ description: eJPT lecture notes
 
 Can use Wireshark while sending a ARP scan in bash
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (19) (1).png>)
 
 ## ARP Scan
 
@@ -132,4 +132,4 @@ Host is up (0.40s latency).
 
 It is a GUI version of NMAP
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (20) (1).png>)

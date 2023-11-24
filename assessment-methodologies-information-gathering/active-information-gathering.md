@@ -6,7 +6,7 @@ description: eJPT lecture notes
 
 ## DNS Zone Transfers
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17) (1).png>)
 
 **DNS interrogation** is the process of enumerating DNS records for a specific domain.
 
@@ -22,18 +22,18 @@ Gain more information about the subdomains which know about internal ip addresse
 
 Which we can use after gained access to the target network.&#x20;
 
-![](<../.gitbook/assets/image (9) (1).png>)![](<../.gitbook/assets/image (10) (1).png>)
+![](<../.gitbook/assets/image (9) (1) (1).png>)![](<../.gitbook/assets/image (10) (1) (1).png>)
 
 ```bash
 dig axfr @nsztm1.digi.ninja zonetransfer.me
 ```
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 <pre class="language-bash"><code class="lang-bash"><strong>fierce --domain  zonetransfer.me
 </strong></code></pre>
 
-![](<../.gitbook/assets/image (12).png>)![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (12) (1).png>)![](<../.gitbook/assets/image (13) (1).png>)
 
 ## Host Discovery With Nmap
 
@@ -89,7 +89,7 @@ Nmap done: 256 IP addresses (2 hosts up) scanned in 2.00 seconds
 
 We can also perform this host discovery using **NetDiscover** which send ARP requests to resolve MAC to ip addresses or vice versa.
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (1).png>)
 
 ## Port Scanning With Nmap
 

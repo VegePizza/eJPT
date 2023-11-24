@@ -131,7 +131,7 @@ smbmap -u guest -p "" -d . -H 10.0.28.123
 
 ### Lab: Samba Recon: Basics
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -147,7 +147,7 @@ smbmap -u guest -p "" -d . -H 10.0.28.123
 
 <figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## SMB: Samba 2
 
@@ -155,7 +155,25 @@ smbmap -u guest -p "" -d . -H 10.0.28.123
 
 <figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+## SMB: Samba 3
+
+### Lab: Samba Recon: Basics III
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -171,7 +189,15 @@ smbmap -u guest -p "" -d . -H 10.0.28.123
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-## SMB: Samba 3
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-### Lab: Samba Recon: Basics III
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+## SMB Dictionary Attack
+
+### Lab: Samba Recon: Dictionary Attack
 
