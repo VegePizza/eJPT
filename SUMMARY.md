@@ -18,3 +18,6 @@
 
 * [SMB Lesson](assessment-methodologies-enumeration/smb-lesson.md)
 * [FTP Lesson](assessment-methodologies-enumeration/ftp-lesson.md)
+* [SSH Lesson](assessment-methodologies-enumeration/ssh-lesson.md)
+* [HTTP Lesson](assessment-methodologies-enumeration/http-lesson.md)
+* [SQL Lesson](assessment-methodologies-enumeration/sql-lesson.md)
